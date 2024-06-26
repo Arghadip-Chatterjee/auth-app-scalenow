@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // Set the base URL to the current directory
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"] // Resolve modules with "@" to the current directory
     }
-  }
+  },
+  "exclude": ["node_modules"] // Exclude node_modules from the compiler options
 }
